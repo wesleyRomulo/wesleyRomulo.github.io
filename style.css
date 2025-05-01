@@ -1,0 +1,79 @@
+html {
+  --font-sen: "Sen", sans-serif;
+  --font-ibm-plex: "IBM Plex Mono", monospace;
+  --color-1: #EEEEEE;
+  --color-2: #00ADB5;
+  --color-3: #3A4750;
+  --color-4: #303841;
+}
+
+body {
+  margin: 0px;
+  color: var(--color-4);
+}
+
+h1,
+p {
+  margin: 0px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 370px;
+
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0 32px 0;
+}
+
+.nav-header a {
+  font-family: var(--font-sen);
+  font-size: .75rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--color-4);
+}
+
+.nav-header button {
+  background: none;
+  font-family: var(--font-ibm-plex);
+  color: var(--color-4);
+  border: none;
+
+}
+
+.lista {
+  border: var(--color-3) 1px solid;
+  border-radius: 5px;
+  height: 60px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.lista h1 {
+  font-family: var(--font-sen);
+  font-size: .75rem;
+}
+
+.lista p {
+  font-family: var(--font-ibm-plex);
+  margin-top: 8px;
+  font-size: .625rem;
+}
+
+.btn-lista {
+  min-width: 100%;
+  border: var(--color-2) 1px solid;
+  border-radius: 5px;
+  padding: 16px 0;
+  background: none;
+  font-family: var(--font-sen);
+  font-size: .75rem;
+  font-weight: 600;
+  color: var(--color-2);
+
+}
