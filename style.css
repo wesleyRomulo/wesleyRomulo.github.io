@@ -64,7 +64,7 @@ p {
   border-radius: 5px;
   margin-bottom: 20px;
   padding: 16px;
-  height: 60px;
+  min-height: 60px;
 }
 
 .lista h1 {
