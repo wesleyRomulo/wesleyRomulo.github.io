@@ -10,15 +10,18 @@ html {
 body {
   margin: 0px;
   color: var(--color-4);
+  background-color: var(--color-1);
 }
 
 ul,
 li {
   padding: 0px;
   margin: 0px;
+  list-style: none;
 }
 
 h1,
+h2,
 p {
   margin: 0px;
 }
